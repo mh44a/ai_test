@@ -1,6 +1,6 @@
-opencv-python==4.5.5.64
-numpy==1.21.6
-tensorflow==2.9.1
-Pillow==9.0.1
-requests==2.27.1
-beautifulsoup4==4.10.0
+opencv-python
+numpy
+tensorflow
+Pillow
+requests
+beautifulsoup4

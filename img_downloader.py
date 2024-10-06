@@ -72,7 +72,7 @@ if first_page_response.status_code == 200:
                             img.save(img_name, 'PNG')  # PNG formatında kaydet
                             print(f"Sayfa {page}, Resim {i} indirildi ve 224x224 boyutunda PNG olarak kaydedildi: {img_name}")
                         else:
-                            img_name = os.path.join(output_dir, f'image_page{page}_{i}.{img.format.lower()}')
+                            img_name = os.path.join(output_dir, f'image_page{page}_{i}.jpeg')
                             img.save(img_name)  # Orijinal formatta kaydet
                             print(f"Sayfa {page}, Resim {i} indirildi ve 224x224 boyutunda kaydedildi: {img_name}")
                     except Exception as e:
